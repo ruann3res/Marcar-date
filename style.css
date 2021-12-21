@@ -1,0 +1,177 @@
+html, body{
+    overflow-x: hidden;
+}
+
+body{
+    width: auto;
+    background-color: #000 !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+
+.nav{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    font-size: 30px;
+}
+
+.fa-arrow-left{
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+    padding-right: 6px;
+}
+
+.title{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 50%;
+    margin-bottom: 20%;
+}
+
+.neyney{
+    width: 75%;
+    position: relative;
+    top: 150px;
+    animation: coracao 5s alternate infinite ease-in-out;
+    
+}
+
+.neyney{
+    width: 50% !important;
+    position: relative;
+    top: 100px;
+    animation: coracao 5s alternate infinite ease-in-out;
+}
+
+@keyframes coracao {
+    from{
+        transform: translateY(0);
+        width: 75%;
+    }
+    to{
+        transform: translateY(-50px);
+        width: 80%;
+    }
+}
+
+
+
+.casimiro{
+    position: relative;
+    top: 150px;
+    animation: neymar 4s alternate infinite ease-in-out;
+    animation-delay: 0s;
+    height: 300px;
+    width: 300px;
+}
+
+.casimiro2{
+    width: 20% ;
+    position: relative;
+    top: 150px;
+    animation: neymar 6s infinite ease-in-out;
+    animation-delay: 0s;
+    overflow-x: hidden !important;
+}
+
+@keyframes neymar {
+    from{
+        /*transform: translateX(0);*/
+       /* transform: translateY(0);*/
+       transform: translate3d(-110px, 0, 0);
+    }
+    to{
+        /*transform: translateX(100px);*/
+        /*transform: translateY(10px);*/
+        transform: translate3d(60px, 0px, 0px);
+    }
+}
+
+.plano{
+    font-size: 45px;
+    margin-bottom: 10%;
+}
+
+.form-check-label{
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btn-dark{
+    width: 80%;
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(255, 255, 255) orange;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+
+  .footer-text{
+    margin-top: 0%;
+    color: rgb(100, 100, 100);
+    font-size: 18px;
+}
+
+.capt{
+    font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    margin-top: 5%;
+}
+  
+
+@media (max-width: 425px) {
+    .title{
+        margin-top: 5%;
+    }
+    
+    .altura{
+        height: 380px;
+    }
+
+    footer{
+        position: relative;
+    }
+
+
+    @keyframes carro {
+        from{
+            /*transform: translateX(0);*/
+           /* transform: translateY(0);*/
+           transform: translate3d(320px, 0, 0);
+        }
+        to{
+            /*transform: translateX(100px);*/
+            /*transform: translateY(10px);*/
+            transform: translate3d(-350px, -20px, 0px);
+        }
+    }
+}
